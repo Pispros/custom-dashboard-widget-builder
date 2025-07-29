@@ -1,0 +1,49 @@
+{
+  "dataStream": [
+    {
+      "content": {
+        "chartType": "bar",
+        "data": [
+          {
+            "region": "North America",
+            "revenue": 74000
+          },
+          {
+            "region": "Europe",
+            "revenue": 56000
+          },
+          {
+            "region": "Asia",
+            "revenue": 43000
+          },
+          {
+            "region": "Latin America",
+            "revenue": 23000
+          }
+        ],
+        "sourceIdentifier": "chart-1",
+        "title": "Revenue by Region - Q2 2024",
+        "xKey": "region",
+        "yKey": "revenue"
+      },
+      "type": "chart"
+    },
+    {
+      "content": {
+        "columns": ["Product", "Category", "Units Sold", "Total ($)"],
+        "rows": [
+          ["iPhone 14", "Smartphones", 3400, "$3,060,000"],
+          ["MacBook Pro", "Computers", 1250, "$2,500,000"],
+          ["iPad Air", "Tablets", 2100, "$1,260,000"],
+          ["AirPods Pro", "Accessories", 3900, "$975,000"],
+          ["Apple Watch", "Wearables", 1850, "$740,000"]
+        ],
+        "sourceIdentifier": "table-1",
+        "title": "Sales by Product - Q2 2024"
+      },
+      "type": "table"
+    }
+  ],
+  "ping": "pong",
+  "widgets": []
+}
