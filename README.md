@@ -127,7 +127,6 @@ The built files will be in the `client/dist` directory.
 3. **Drag widgets** from the library to the dashboard canvas
 4. **Configure widgets** by clicking on them after placement
 5. **Choose layout options** from the Layout Options panel
-6. **Save your dashboard** (if save functionality is implemented)
 
 ## 🔧 Configuration
 
