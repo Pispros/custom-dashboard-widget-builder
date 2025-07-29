@@ -26,6 +26,7 @@ const TextWidget = ({
 
   return (
     <article
+      key={id}
       className="bg-blue-50 border-2 border-blue-200 rounded-lg p-4 hover:shadow-md transition-all relative group"
       style={{
         height: `${height}px`,

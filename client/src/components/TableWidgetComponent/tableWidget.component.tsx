@@ -54,6 +54,7 @@ const TableWidget = ({
 
   return (
     <article
+      key={id}
       className="bg-purple-50 border-2 border-purple-200 rounded-lg p-4 hover:shadow-md transition-all relative group"
       style={{
         height: `${height}px`,

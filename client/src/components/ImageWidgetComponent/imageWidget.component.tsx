@@ -21,6 +21,7 @@ const ImageWidget = ({
 
   return (
     <article
+      key={id}
       className="bg-green-50 border-2 border-green-200 rounded-lg p-4 hover:shadow-md transition-all relative group"
       style={{
         height: `${height}px`,
